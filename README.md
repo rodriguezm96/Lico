@@ -40,8 +40,7 @@ El sistema de control de ventas se diseñará con el fin de poder ver el catálo
 
 1. **Vista de login:**  
    Esta vista contará con 3 botones: uno para ingresar (🔓), otro para salir (🔙) y el último que mostrará un menú desplegable (☰) para que los clientes puedan registrarse y así entrar al sistema, además de dos cajas de texto, una para el usuario y otra para la contraseña. ![image](https://github.com/rodriguezm96/Lico/assets/173096819/da50519d-2a15-4ed1-a3b2-1e80617d58e7)
-()
-)
+
 
 2. **Vista de registro:**  
    En esta vista habrá 6 cajas de texto para: identificación, nombre, dirección, teléfono, usuario y contraseña. También tendrá dos botones: uno para volver al login (↩️) y otro para registrar al usuario (✔️). (Nota: Apenas se registre el usuario, se redireccionará a la ventana de inicio) ![image](registro.jpg)
