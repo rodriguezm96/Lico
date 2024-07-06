@@ -1,4 +1,4 @@
-# Lico
+# Licoreria
 Sistema de ventas para un concesionario
 La idea de este proyecto realizado con java fx, es que sirva para la gestion y venta de autos de los concesionario de manera virtual como una especie de catalogo
 
