@@ -17,21 +17,18 @@ AÑO:
 
 Contenido
 Sistema de ventas de Licorería ................................................................................................. 1  
-Link de repositorio ..................................................................................................................... 2  
-Link del prototipo: ▶ Page 1 - Untitled (figma.com) ................................................................ 3  
-Introducción............................................................................................................................... 4  
-Vistas......................................................................................................................................... 5  
+Link de repositorio ..................................................................................................................... 2   
+Introducción............................................................................................................................... 3  
+Vistas......................................................................................................................................... 4
 
-Vista de login.................................................................................................................. 6  
-Vista de registro ............................................................................................................. 7  
-(.............................................................................................................................................. 8  
-Vista principal................................................................................................................. 9  
-A. Inicio....................................................................................................................... 9.1  
-B. Carrito .................................................................................................................... 9.2  
-C. Lista de deseos ....................................................................................................... 9.3  
-D. Compras................................................................................................................. 9.4  
-E. Salir ............................................................................................................................ 9.5  
-UML ................................................................................................................................... 10  
+Vista de login.................................................................................................................. 5 
+(.............................................................................................................................................. 6 
+Vista principal................................................................................................................. 8 
+A. Inicio....................................................................................................................... 8.1  
+B. Carrito .................................................................................................................... 8.2  
+C. Lista de deseos ....................................................................................................... 8.3   
+D. Vista Admin ....................................................................................................... 9
+E. Admistrar Productos ....................................................................................................... 9.1
 
 ### Introducción  
 El sistema de control de ventas se diseñará con el fin de poder ver el catálogo de todos los licores que estén disponibles en el stock de una licorería X. Estos licores tendrán una imagen, la marca, el tipo, la cantidad y el precio. Esto se hará con el fin de que los clientes puedan ver la gama de licores y precios que se ajusten a su poder adquisitivo. El sistema tendrá un login y una opción de registro para los clientes, así podrán comprar los licores. Dentro del sistema, habrá un administrador que se encargará de actualizar la cantidad de licores en stock, además de agregar nuevos productos. Una vez explicado de qué se tratará el sistema, procedemos a explicar cada una de las vistas del prototipo:
@@ -39,16 +36,12 @@ El sistema de control de ventas se diseñará con el fin de poder ver el catálo
 ### Vistas:
 
 1. **Vista de login:**  
-   Esta vista contará con 3 botones: uno para ingresar (🔓), otro para salir (🔙) y el último que mostrará un menú desplegable (☰) para que los clientes puedan registrarse y así entrar al sistema, además de dos cajas de texto, una para el usuario y otra para la contraseña. ![image](https://github.com/rodriguezm96/Lico/assets/173096819/da50519d-2a15-4ed1-a3b2-1e80617d58e7)
+   Esta vista contará con 1 boton: uno para ingresar (🔓), además de dos cajas de texto, una para el usuario y otra para la contraseña. ![image](https://github.com/rodriguezm96/Lico/assets/173096819/da50519d-2a15-4ed1-a3b2-1e80617d58e7)
 
+2. **Vista principal:**  
+   En la vista principal nos vamos a encontrar con un menú donde la opción por defecto mostrará el catálogo de licores disponibles. Habrá 5 opciones:
+![image](https://github.com/rodriguezm96/Lico/assets/173096819/301b0609-c57d-4001-9c6f-2fb9eb0e256a)
 
-2. **Vista de registro:**  
-   En esta vista habrá 6 cajas de texto para: identificación, nombre, dirección, teléfono, usuario y contraseña. También tendrá dos botones: uno para volver al login (↩️) y otro para registrar al usuario (✔️). (Nota: Apenas se registre el usuario, se redireccionará a la ventana de inicio) ![image](registro.jpg)
-
-3. **Vista principal:**  
-   En la vista principal nos vamos a encontrar con un menú lateral izquierdo donde la opción por defecto mostrará el catálogo de licores disponibles. Habrá 5 opciones:
-
-   ![image](principal.jpg)
 
    A. **Inicio:**  
       Catálogo de los licores disponibles en el sistema. El usuario podrá darle click a un licor que le interese para ver la información del mismo y elegir la cantidad a comprar o agregarlo a la lista de deseos. Dentro de esta vista también se contará con otras sub-opciones:  
@@ -57,11 +50,9 @@ El sistema de control de ventas se diseñará con el fin de poder ver el catálo
    B. **Carrito:**  
       Aquí el usuario podrá ver los licores que ha decidido comprar, modificar la cantidad, y proceder al pago.
 
-   C. **Lista de deseos:**  
-      En esta sección, el usuario podrá ver los licores que ha agregado a su lista de deseos y moverlos al carrito de compras si así lo desea.
+   C. **Volver al Login:**  
+      Opción para volver al menu.
+   D. **Vista Admin:**
+      Opción para que el administrador pueda agregar, eliminar o cambiar precios del producto.
+   ![image](https://github.com/rodriguezm96/Lico/assets/173096819/e9758f0a-4c7a-4957-adc6-89bbf68261eb)
 
-   D. **Compras:**  
-      Esta vista mostrará el historial de compras realizadas por el usuario, incluyendo detalles como la fecha de compra, los licores adquiridos y el monto total.
-
-   E. **Salir:**  
-      Opción para cerrar sesión y salir del sistema.
