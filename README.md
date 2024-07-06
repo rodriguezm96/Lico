@@ -44,7 +44,8 @@ El sistema de control de ventas se diseñará con el fin de poder ver el catálo
 
 
    A. **Inicio:**  
-      Catálogo de los licores disponibles en el sistema. El usuario podrá darle click a un licor que le interese para ver la información del mismo y elegir la cantidad a comprar o agregarlo a la lista de deseos. Dentro de esta vista también se contará con otras sub-opciones:  
+      Catálogo de los licores disponibles en el sistema. El usuario podrá darle click a un licor que le interese para ver la información del mismo y elegir la cantidad a comprar o 
+      agregarlo a la lista de deseos. Dentro de esta vista también se contará con otras sub-opciones:  
       - Agregar a la lista de deseos.
 
    B. **Carrito:**  
@@ -52,6 +53,7 @@ El sistema de control de ventas se diseñará con el fin de poder ver el catálo
 
    C. **Volver al Login:**  
       Opción para volver al menu.
+   
    D. **Vista Admin:**
       Opción para que el administrador pueda agregar, eliminar o cambiar precios del producto.
    ![image](https://github.com/rodriguezm96/Lico/assets/173096819/e9758f0a-4c7a-4957-adc6-89bbf68261eb)
